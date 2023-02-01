@@ -1,4 +1,4 @@
-name: Spin up Railway deployment
+name: Stop deployment on saturdays
 
 on:
   schedule: 
