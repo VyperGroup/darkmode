@@ -1,8 +1,7 @@
 name: Stop deployment on saturdays
 
 on:
-  schedule: 
-  - cron: "0 0 * * 6"
+  workflow_dispatch
 
 jobs:
   deploy:
@@ -24,6 +23,6 @@ jobs:
         run: npm i -g @railway/cli
 
       - name: Deploy
-        run: railway -- down
+        run: railway down
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
