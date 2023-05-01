@@ -1,6 +1,8 @@
 name: Start deployment
 
-on: workflow_dispatch
+on:
+  schedule: 
+  - cron: "0 5 * * 1"
 
 jobs:
   deploy:
