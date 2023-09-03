@@ -12,8 +12,8 @@ Darkmode, a frontend version of Ultraviolet, highly sophisticated proxy used for
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://github.com/Dark-Mode-Proxy/Dark-Mode)
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://github.com/Dark-Mode-Proxy/Dark-Mode)
 
-Use 'npm install' and to start the proxy use 'npm start' or 'node .'.
+Use `npm install` and to start the proxy use `npm start` or `node .`.
 
 ## Production
 
-For production, instead of running 'npm start', use 'npm run dev'.
+For production, instead of running `npm start`, use `npm run dev`.
